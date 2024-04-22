@@ -8,10 +8,33 @@
     <link href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" rel="stylesheet">
     <!-- Enlaza tu archivo CSS personalizado -->
     <link rel="stylesheet" href="styles.css">
+    <style>
+        /* Estilo para el encabezado */
+        #header {
+            background-color: #3498DB; /* Color de fondo azul */
+            padding: 20px; /* Añade espaciado interno al encabezado */
+            text-align: center; /* Centra el contenido del encabezado */
+            color: white; /* Color de texto blanco */
+        }
+
+        /* Estilo para la imagen del encabezado */
+        #header-image {
+            max-width: 200px; /* Ajusta el tamaño máximo de la imagen según sea necesario */
+            margin-bottom: 10px; /* Añade espacio debajo de la imagen */
+        }
+
+        /* Estilo para la frase del encabezado */
+        #profile-description {
+            color: white; /* Cambia el color del texto de la frase a blanco */
+        }
+    </style>
 </head>
 <body>
+    <div id="header">
+        <img src="https://www.utmachala.edu.ec/portalwp/wp-content/uploads/2015/08/LOGO_OUT.png" alt="" id="header-image">
+        <h1 id="profile-description">Conoce a Ángel Vera: Estudiante entusiasta de la Universidad Técnica de Machala, amante del fútbol y apasionado por el aprendizaje.</h1>
+    </div>
     <div class="container">
-        <h1>Mi Perfil</h1>
         <div id="profile-info">
             <p>Nombre: <span id="name">Angel Vera</span></p>
             <p>Edad: <span id="age">21</span></p>
